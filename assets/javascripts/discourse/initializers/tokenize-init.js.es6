@@ -12,7 +12,7 @@ function initializePlugin(api) {
   api.addPostMenuButton('tokenize', attrs => {
     return {
       action: 'clickTokenize',
-      icon: 'hand-holding-usd',
+      icon: 'dollar-sign',
       title: 'tokenize.title',
       position: 'first'
     }
