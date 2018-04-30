@@ -21,8 +21,8 @@ after_initialize do
    end
  
    Environment = 'sandbox'
-   Ost_kit_key = SiteSetting.retort_key
-   Ost_kit_secret = SiteSetting.retort_secret
+   Ost_kit_key = SiteSetting.tokenize_key
+   Ost_kit_secret = SiteSetting.tokenize_secret
    Credentials = OSTSdk::Util::APICredentials.new(Ost_kit_key, Ost_kit_secret)
    ostTransactionKindObject = OSTSdk::Saas::TransactionKind.new(Environment, Credentials) # initializes a TransactionKind object
 end
