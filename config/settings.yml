@@ -1,0 +1,13 @@
+plugins:
+  tokenize_enabled:
+    default: true
+    client: true
+  tokenize_key:
+    default: "key"
+    client: false
+  tokenize_secret:
+    default: "secret"
+    client: false
+  tokenize_company_uuid:
+    default: "company uuid"
+    client: false
